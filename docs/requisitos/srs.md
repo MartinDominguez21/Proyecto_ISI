@@ -267,6 +267,7 @@ para conservar la procedencia de la definición. El catálogo de requisitos podr
 enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
+| --- | --- | --- |
 | Receta adaptada | significa encontrar recetas adecuadas al perfil el sistema no modificará automáticamente ingredientes o cantidades | acta de captura seccion 3 |
 | Pacientes con EII | usuarios principales del sistema, que buscan recetas personalizadas para mejorar su dieta y controlar los síntomas de su enfermedad. | visión y alcance sección 3 |
 | Cuidadores | familiares o profesionales que asisten a los pacientes en la gestión de su dieta, actuando como usuarios secundarios que buscan y administran recetas en nombre de los pacientes. | visión y alcance sección 3 |
