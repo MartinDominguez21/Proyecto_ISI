@@ -280,6 +280,11 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | --- | --- | --- | --- | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 | NFR-08 |NFR-Q (Disponibilidad) |La plataforma debe estar disponible 24/7 para permitir la interacción de los usuarios en cualquier momento.| G | -  | - | - |
+| NFR-09 |NFR-Q (Seguridad; Privacidad) | Cifrado de datos personales y de salud en reposo y tránsito. Acceso del cuidador a datos de salud supeditado a autorización revocable del paciente. |L *(Datos de Salud)* | - | - | - |
+| NFR-10 |NFR-I (Interfaz de usuario) | El sistema debe ser accesible a través de un navegador web desde dispositivos con conexión a internet, debiendo contar obligatoriamente con un diseño web responsivo que priorice el acceso móvil. | G | - | - | - |
+| NFR-11 | NFR-I (Portabilidad; Idiomas) | Interfaz con cambio dinámico de idioma entre castellano y gallego en el 100% de textos, formularios y mensajes. | G | - | - | - |
+| NFR-12 | NFR-I (Accesibilidad; Usabilidda) | Cumplimiento de WCAG 2.2 Nivel AA en todas las pantallas y flujos principales, sin fallos de nivel A ni AA. | G | - | - | - |
+
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
