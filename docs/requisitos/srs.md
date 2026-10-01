@@ -268,11 +268,13 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 
 | Término | Definición en Proyecto Simbiosis | Fuente |
 | --- | --- | --- |
-| Receta adaptada | significa encontrar recetas adecuadas al perfil el sistema no modificará automáticamente ingredientes o cantidades | acta de captura seccion 3 |
+| Receta adaptada | significa encontrar recetas adecuadas al perfil el sistema no modificará automáticamente ingredientes o cantidades | acta de captura sección 3 |
 | Pacientes con EII | usuarios principales del sistema, que buscan recetas personalizadas para mejorar su dieta y controlar los síntomas de su enfermedad. | visión y alcance sección 3 |
 | Cuidadores | familiares o profesionales que asisten a los pacientes en la gestión de su dieta, actuando como usuarios secundarios que buscan y administran recetas en nombre de los pacientes. | visión y alcance sección 3 |
 | Nutricionistas y médicos |  profesionales de la salud que contribuyen con recetas especializadas y validan la calidad de las recetas disponibles en la plataforma | visión y alcance sección 3 |
 | Coordinador |  usuario responsable de supervisar la actividad en la plataforma. Gestiona reportes de contenido inadecuado, aplica reglas de uso, apoya el correcto funcionamiento de la comunidad y gestiona cuentas de usuario, incluida la aprobación, suspensión y eliminación de cuentas. La adscripción organizativa del coordinador se decidirá en la fase de despliegue | visión y alcance sección 3 |
+| Receta validada | receta que ha sido aprobada y respaldada por un nutricionista tras haber sido publicada por un paciente o cuidador | acta de captura sección 3 |
+
 
 ## 10. Modelos de análisis
 
