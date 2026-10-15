@@ -99,6 +99,7 @@ UC-33 se distingue de UC-06 Eliminar cuenta propia. En UC-33, el Coordinador act
 UC-35 es una subfunción compartida. No representa una operación que el Coordinador inicie por separado.
 
 ## 4 Diagramas del modelo
+<img width="893" height="843" alt="Untitled" src="https://github.com/user-attachments/assets/1af08df7-9971-42c1-8fa7-b5f29b3a71ed" />
 
 ### 4.1 Vista de acceso, cuentas y ayuda de E1
 
