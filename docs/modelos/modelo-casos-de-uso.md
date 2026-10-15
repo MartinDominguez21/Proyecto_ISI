@@ -69,6 +69,15 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
+| UC-12 | Introducción datos de salud | introducción manual de datos fisiológicos, resultados de laboratorio, las notas de síntomas o estado de salud, con su límite de longitud. | Principal: Profesional |
+| UC-13 | Consulta historial | El paciente podrá consultar su historial, filtrar por tipo de dato, acceder a gráficas y exportar sus datos en PDF y CSV. | Principal: Paciente. |
+| UC-14 | Autorizar nutricionista | nutricionistas específicos para consultar datos de salud. | Principal: Paciente. |
+| UC-15 | Desautorizar nutricionista | El paciente podrá revocar la autorización en cualquier momento. | Principal: Paciente |
+| UC-16 | Invitar nutricionista | invitación a un nutricionista mediante el correo del nutricionista. Si este ya dispone de cuenta, el sistema mostrará su identidad. Si no, el sistema le enviará por correo electrónico una invitación para registrarse. No concede acceso a datos de salud | Apoyo: Servicio de correo electrónico, mediante UC-11. Principal: Paciente. |
+| UC-17 | Creacion de recetas | Creación de recetas con los datos obligatorios, imágenes o vídeos admitidos, categorías y etiquetas. | Principal: Profesional. |
+| UC-18 | Edición de recetas | Cambiar los datos obligatorios, imágenes o vídeos admitidos, categorías o etiquetas. | Principal: Profesional. |
+| UC-19 | Eliminación de recetas | Borrar una receta con confirmación previa para que ya no sea accesible. | Principal: Profesional. |
+| UC-20 | Historial de recetas | Historial donde el profesional puede consultar todas las recetas que ha publicado. | Principal: Profesional. |
 | UC-31 | Aprobar cuenta de cuidador o nutricionista | Aprobar una cuenta solicitada con perfil de cuidador o nutricionista, conforme a las condiciones del perfil. | Principal: Coordinador. |
 | UC-32 | Suspender cuenta de usuario activa | Suspender una cuenta de usuario que se encuentra activa. | Principal: Coordinador. |
 | UC-33 | Eliminar cuenta de usuario | Eliminar una cuenta de usuario y conservar el contenido publicado cuando corresponda a un cuidador. | Principal: Coordinador. |
