@@ -205,19 +205,19 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 
 6.2 Descripción de un caso
-Identificador y nombre: [UC-21 · Buscar recetas]
+**Identificador y nombre:** [UC-21 · Buscar recetas]
 
-Estado de la descripción: [Concretar el comportamiento que se describirá en L06.]
+**Estado de la descripción:** [Concretar el comportamiento que se describirá en L06.]
 
-Objetivo: [Localizar una receta que cumpla los criterios establecidos por el usuario registrado(Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.) y consultar su detalle.]
+**Objetivo:** [Localizar una receta que cumpla los criterios establecidos por el usuario registrado(Se consideran la búsqueda por ingredientes, la búsqueda por una palabra o frase y la exclusión de ingredientes.) y consultar su detalle.]
 
-Participantes: [actores principal:una persona usuaria registrada]
+**Participantes:** [actores principal:una persona usuaria registrada]
 
-Precondiciones: [La persona ya tiene una cuenta activa y una sesión iniciada]
+**Precondiciones:** [La persona ya tiene una cuenta activa y una sesión iniciada]
 
-Inicio: [La persona quiere buscar una receta que cumpla con los requisitos que solicita.]
+**Inicio:** [La persona quiere buscar una receta que cumpla con los requisitos que solicita.]
 
-Escenario principal: 1.[El usuario entra a la aplicación con fin de buscar una receta.] 
+**Escenario principal:** 1.[El usuario entra a la aplicación con fin de buscar una receta.] 
 
 2.[El usuario entra en la sección de busqueda desde la pantalla de inicio de la aplicación] 
 
@@ -229,15 +229,15 @@ Escenario principal: 1.[El usuario entra a la aplicación con fin de buscar una 
 
 6.[El caso de uso finaliza]
 
-Alternativas y errores: 2.1.La aplicación no responde y no es capaz de cargar la seccione: [1.El usuario reporta el accidente del sistema a los administradores 2.El usuario sale de la aplicacion y vuelve a intentar acceder a la sección de busqueda desde el paso 1] 
+**Alternativas y errores: 2.1.La aplicación no responde y no es capaz de cargar la seccione:** [1.El usuario reporta el accidente del sistema a los administradores 2.El usuario sale de la aplicacion y vuelve a intentar acceder a la sección de busqueda desde el paso 1] 
 
-5.1. El sistema no es capaz de devolver una lista de recetas que cumpla con los requisitos [1.El sistema mostrara el error en pantalla para informar al usuario 2.El sistema vuelve a la sección de busqueda 3.El usuario introduce otros filtros y vuelve al paso 3 del escenario principal] 
+**5.1. El sistema no es capaz de devolver una lista de recetas que cumpla con los requisitos** [1.El sistema mostrara el error en pantalla para informar al usuario 2.El sistema vuelve a la sección de busqueda 3.El usuario introduce otros filtros y vuelve al paso 3 del escenario principal] 
 
-Postcondiciones: [El usuario elige una receta que cumple con sus requisitos y la guarda]
+**Postcondiciones:** [El usuario elige una receta que cumple con sus requisitos y la guarda]
 
-Reglas y NFR pertinentes: [Remite a los requisitos y actas que condicionan el comportamiento.]
+**Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
-Preguntas abiertas: [En el paso 9, ¿como exactamente notificara el sistema al usuario que se han modificado los datos correctamente?]
+**Preguntas abiertas:** []
 
 ## 7 Continuidad entre iteraciones
 
