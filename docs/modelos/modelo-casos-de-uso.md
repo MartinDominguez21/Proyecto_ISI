@@ -160,27 +160,48 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 ### 6.1 Descripción de un caso
 
-**Identificador y nombre:** [Indica el caso.]
+**Identificador y nombre:** [UC-05 · Actualizar perfil]
 
-**Estado de la descripción:** [Indica el nivel de detalle y el alcance desarrollado.]
+**Estado de la descripción:** [Completo y aprobado para el L06]
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** [Permitir que la persona usuaria registrada modifique sus datos personales permitidos (nombre completo, teléfono, dirección postal) y sus preferencias dietéticas (vegana, sin gluten, baja en carbohidratos), y conserve dichos cambios en el sistema.]
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** [actores principal:una persona usuaria registrada]
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** [La persona ya tiene una cuenta activa y una sesión iniciada]
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** [La persona quiere actualizar su propio perfil y conservar los cambios.]
 
-**Escenario principal:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal:** [1.El usuario entra a la aplicacion con fin de actualizar y guardar los cambios de su perfil.
+2.El usuario entra en la sección de perfil y sucesivamente entra en la pestaña de edición de perfil
+3.El usuario borra el antiguo, introduce y guarda su nuevo nombre
+4.El usuario va a la sección de preferencias dietéticas y borra o añade sus preferencias y las guarda
+5.El sistema comprueba los datos segun las reglas de actas
+6.El usuario ordena al sistema guardar los cambios y sale del modo edición
+7.El sistema confirma la actualizacion
+8.El caso de uso finaliza]
 
-**Alternativas y errores:** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Alternativas y errores:** [**2.1.La aplicacion no responde y no es capaz de cargar las secciones:**
+1.El usuario reporta el accidente del sistema a los administradores
+2.El usuario sale de la aplicacion y vuelve a intentar actualizar su perfil empezando desde el paso 1]
+**5.1. El sistema rechaza los datos ya que no cumplen con las reglas**
+1.El sistema mostrara el error en pantalla para informar al usuario
+2.El sistema conserva los datos sin guardarlos
+3.El usuario modifica los valores de los datos
+4.Vuelve al paso 3 del escenario principal
+**6.1.El sistema no es capaz de guardar correctamente los datos**
+1.El sistema mostrara el error en pantalla para informar al usuario
+2.El usuario volvera a introducir los datos empezando desde
+**a.El usuario decide cancelar los cambios**
+1.Los datos introducidos no son guardados
+2.Se reestablecen los datos que habia antes en el perfil
+3.El caso de uso finaliza
 
-**Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
+**Postcondiciones:** [El perfil contiene los datos cambiados por el usuario a excepcion del telefono y correo que no pueden ser editados y este recibe una confirmacion del cambio]
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
-**Preguntas abiertas:** [Registra solo las cuestiones necesarias que las fuentes no resuelvan. Si no hay preguntas para el alcance descrito, indícalo.]
+**Preguntas abiertas:** [En el paso 9, ¿como exactamente notificara el sistema al usuario que se han modificado los datos correctamente?]
 
 ## 7 Continuidad entre iteraciones
 
