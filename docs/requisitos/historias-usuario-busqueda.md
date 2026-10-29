@@ -15,19 +15,19 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como [usuario de la aplicación], quiero [poder filtrar la búsqueda de recetas], para [que estas no supongan un peligro para mi o se adapten mejor a mis condiciones].
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
 ## Justificación de la división
 
-[Justificación de los resultados útiles que separa la división.]
+[Para poder cubrir plenamente todos las maneras de filtro que puede ofrecer la aplicación]
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** [Buscar mediante una palabra o frase]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como [usuario], quiero [poder buscar una receta mediante su nombre], para [encontrar mas fácilmente la receta que se me ha sido recetada].
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
@@ -39,29 +39,29 @@ Como [rol], quiero [capacidad], para [beneficio].
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** [Buscar por ingredientes incluidos]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como [usuario], quiero [poder buscar recetas filtradas por sus ingredientes incluidos], para [encontrar una receta que se adapte mejor a mis condiciones].
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado [una coincidencia en el texto], cuando [se realice la busque], entonces [la aplicación mostrara un listado de las recetas coincidentes].
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** [Excluir ingredientes]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como [usuario], quiero [poder buscar recetas y excluir ingredientes], para [evitar ingredientes a los que no sea tolerable].
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado [una inclusion de todos los ingredientes], cuando [se realice la busqueda], entonces [la aplicación mostrara un mensaje que informara que por incompatibilidad entre ingredientes no existe la receta buscada].
 - **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
 - **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
 
@@ -71,8 +71,8 @@ La revisión abarca US-01, US-02 y US-03. «Aplicado» indica si se ha realizado
 
 | Criterio | Pregunta de revisión | Aplicado | Cumple | Justificación |
 | --- | --- | --- | --- | --- |
-| Independiente | ¿Puede implementarse cada historia y ofrecer un resultado útil sin implementar antes las otras historias del conjunto? Puede compartir infraestructura con ellas. | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
-| Negociable | ¿Cada historia explica qué necesita la persona y deja margen para discutir los detalles de la solución, respetando los acuerdos confirmados? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
+| Independiente | ¿Puede implementarse cada historia y ofrecer un resultado útil sin implementar antes las otras historias del conjunto? Puede compartir infraestructura con ellas. | [Sí] | [Sí] | [Historias y motivo] |
+| Negociable | ¿Cada historia explica qué necesita la persona y deja margen para discutir los detalles de la solución, respetando los acuerdos confirmados? | [Sí] | [Sí/No/Pendiente] | [Historias y motivo] |
 | Valiosa | ¿La parte «para…» de cada historia explica el beneficio que obtiene la persona al usar esa capacidad? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
 | Estimable | ¿Están claros el alcance y los datos necesarios para estimar el trabajo de cada historia? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
 | Pequeña | ¿Se centra cada historia en una única capacidad de alcance manejable? | [Sí/No] | [Sí/No/Pendiente] | [Historias y motivo] |
