@@ -237,7 +237,8 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Reglas y NFR pertinentes:** [Remite a los requisitos y actas que condicionan el comportamiento.]
 
-**Preguntas abiertas:** []
+**Preguntas abiertas:** <img width="1920" height="1080" alt="actividad-buscar-recetas-uc21 png" src="https://github.com/user-attachments/assets/d9044c3e-8b20-4e1d-92c1-a9db33d10b1f" />
+
 
 ## 7 Continuidad entre iteraciones
 
